@@ -1,1 +1,4 @@
-.idea
+.idea/
+.gitignore
+config.php
+vendor/
