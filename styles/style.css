@@ -177,7 +177,7 @@ footer {
     background-color: #007a7f;
 }
 
-.email-form {
+.email-form, .new-note-form {
     margin-top: 20px;
 }
 

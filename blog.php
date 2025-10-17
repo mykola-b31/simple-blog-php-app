@@ -13,7 +13,7 @@
         <a href="blog.php" class="logo-text">Мій Блог</a>
         <nav class="menu">
             <ul class="menu_list">
-                <li class="menu_item"><a href="#" class="menu_link">Новий запис</a></li>
+                <li class="menu_item"><a href="newnote.php" class="menu_link">Новий запис</a></li>
                 <li class="menu_item"><a href="email.php" class="menu_link">Надіслати повідомлення</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Фото</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Файли</a></li>
