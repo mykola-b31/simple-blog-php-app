@@ -37,6 +37,8 @@
         echo "</article>";
         ?>
 
+        <a href="editnote.php?note=<?php echo $note_id?>" class="edit-note-link" style="margin-top: 1px">Редагувати</a>
+
         <div class="comments-block">
             <h3 class="comments-header">Коментарі:</h3>
             <?php
