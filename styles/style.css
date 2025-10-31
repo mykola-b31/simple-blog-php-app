@@ -153,6 +153,7 @@ footer {
 }
 
 .comment-item {
+    position: relative;
     padding: 15px 0;
     border-bottom: 1px solid #4a4946;
 }
@@ -160,6 +161,20 @@ footer {
 .comment-item:last-child {
     border-bottom: none;
     padding-bottom: 5px;
+}
+
+.comment-edit-link {
+    position: absolute;
+    top: 24px;
+    right: 0;
+
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.comment-edit-link:hover {
+    color: #EEEEEE;
 }
 
 .back-to-notes-link, .edit-note-link {
@@ -231,4 +246,9 @@ footer {
     color: white;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.comment-edit-link .material-symbols-outlined {
+    font-size: 32px;
+    display: block;
 }
