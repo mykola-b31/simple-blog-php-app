@@ -76,7 +76,7 @@ mysqli_close($link);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Коментарі</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=edit_square" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=delete,edit_square" />
 </head>
 <body>
 <header>
@@ -115,6 +115,9 @@ mysqli_close($link);
                     echo "<div class='comment-item'>";
                     echo "<a href='editcomment.php?comment={$comment['id']}' class='comment-edit-link' title='Редагувати коментар'>";
                     echo "  <span class='material-symbols-outlined'>edit_square</span>";
+                    echo "</a>";
+                    echo "<a href='deletecomment.php?comment={$comment['id']}' class='comment-delete-link' title='Видалити коментар'>";
+                    echo "  <span class='material-symbols-outlined'>delete</span>";
                     echo "</a>";
                     echo "<p class='comment-author'>" . htmlspecialchars($comment['author']) . "</p>";
                     echo "<p class='comment-meta'>{$comment['created']}</p>";

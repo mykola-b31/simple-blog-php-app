@@ -163,20 +163,6 @@ footer {
     padding-bottom: 5px;
 }
 
-.comment-edit-link {
-    position: absolute;
-    top: 24px;
-    right: 0;
-
-    color: #bdc3c7;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.comment-edit-link:hover {
-    color: #EEEEEE;
-}
-
 .back-to-notes-link, .edit-note-link {
     display: inline-block;
     margin-top: 20px;
@@ -248,7 +234,40 @@ footer {
     margin-bottom: 20px;
 }
 
+.comment-edit-link {
+    position: absolute;
+    top: 24px;
+    right: 40px;
+
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.comment-edit-link:hover {
+    color: #EEEEEE;
+}
+
 .comment-edit-link .material-symbols-outlined {
+    font-size: 32px;
+    display: block;
+}
+
+.comment-delete-link {
+    position: absolute;
+    top: 24px;
+    right: 0;
+
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.comment-delete-link:hover {
+    color: #c0392b;
+}
+
+.comment-delete-link .material-symbols-outlined {
     font-size: 32px;
     display: block;
 }
