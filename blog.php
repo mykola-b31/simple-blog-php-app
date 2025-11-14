@@ -18,7 +18,7 @@
                 <li class="menu_item"><a href="#" class="menu_link">Фото</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Файли</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Адміністратору</a></li>
-                <li class="menu_item"><a href="inform.html" class="menu_link">Інформація</a></li>
+                <li class="menu_item"><a href="inform.php" class="menu_link">Інформація</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Увійти</a></li>
             </ul>
         </nav>

@@ -88,7 +88,7 @@ main {
     color: #EEEEEE;
 }
 
-.post-card, .post-card-comment {
+.post-card, .post-card-comment, .info-card {
     background-color: #1e405c;
     color: #EEEEEE;
     border-radius: 5px;
@@ -270,4 +270,16 @@ footer {
 .comment-delete-link .material-symbols-outlined {
     font-size: 32px;
     display: block;
+}
+
+.info-card p a {
+    color: #00ADB5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.info-card p a:hover {
+    color: #EEEEEE;
+    text-decoration: underline;
 }

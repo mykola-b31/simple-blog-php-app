@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <nav class="menu">
             <ul class="menu_list">
                 <li class="menu_item"><a href="blog.php" class="menu_link">На головну</a></li>
-                <li class="menu_item"><a href="inform.html" class="menu_link">Інформація</a></li>
+                <li class="menu_item"><a href="inform.php" class="menu_link">Інформація</a></li>
             </ul>
         </nav>
     </div>
