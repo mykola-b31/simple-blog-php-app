@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мій Блог</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 </head>
 <body>
 <header>
@@ -30,6 +31,17 @@
         <div class="welcome-message">
             <h2>Вітаю вас у своєму блозі!</h2>
             <p>На сторінках цього сайту я буду ділитися нотатками та записами зі своїх подорожей, а також іншими цікавими матеріалами!</p>
+        </div>
+
+        <div class="post-card-comment" style="margin-bottom: 24px; padding: 10px 20px;">
+            <form action="search.php" method="GET" class="search-form">
+                <div class="search-group">
+                    <input type="text" name="query" placeholder="Пошук нотаток..." required>
+                    <button type="submit" class="search-btn">
+                        Пошук <span class="material-symbols-outlined" style="font-size: 18px; vertical-align: middle;">search</span>
+                    </button>
+                </div>
+            </form>
         </div>
 
         <?php
