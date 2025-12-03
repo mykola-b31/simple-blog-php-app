@@ -1,4 +1,12 @@
-<?php include 'connections/my_site_db.php';
+<?php
+session_start();
+
+if (!isset($_SESSION['user_rights']) || $_SESSION['user_rights'] !== 'a') {
+    header("Location: login.php");
+    exit;
+}
+
+include 'connections/my_site_db.php';
 $success_message = '';
 $error_message = '';
 

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php
 $upload_dir = 'uploads/files/';
 $allowed_extensions = ['pdf', 'doc', 'docx', 'txt', 'zip', 'rar'];

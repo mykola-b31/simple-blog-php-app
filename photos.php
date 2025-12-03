@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php
 $upload_dir = 'uploads/photos/';
 $allowed_types = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];

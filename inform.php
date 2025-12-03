@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include 'connections/my_site_db.php';
 
 function get_scalar_query($link, $sql) {

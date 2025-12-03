@@ -1,3 +1,9 @@
+<?php session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
 <?php include 'connections/my_site_db.php';
 
 $success_message = '';
